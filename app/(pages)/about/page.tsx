@@ -23,8 +23,6 @@ async function fetchAbout() {
 // Async component to render about
 export default async function Page() {
     const about = await fetchAbout();
-    
-    console.log(about)
 
     return (
         <div className="container">
