@@ -11,7 +11,7 @@ const client = createClient({
 async function fetchProjects() {
     try {
         const res = await client.getEntries({
-            content_type: 'home', // Replace with your actual content type ID
+            content_type: 'projects', // Replace with your actual content type ID
         });
 
         return res.items;
